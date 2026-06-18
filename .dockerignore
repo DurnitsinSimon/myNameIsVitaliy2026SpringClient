@@ -1,0 +1,20 @@
+# Зависимости и сборка — ставятся/собираются внутри образа
+node_modules
+dist
+
+# Локальные переменные окружения не должны попасть в образ
+.env
+.env.*
+
+# Git и метаданные
+.git
+.gitignore
+
+# Прочее
+Dockerfile
+.dockerignore
+*.log
+npm-debug.log*
+.DS_Store
+.vscode
+.idea
